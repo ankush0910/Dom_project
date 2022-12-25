@@ -1,0 +1,184 @@
+  {
+    "Banks": 
+    [
+      {
+        "id": 1,
+        "name": "Axis Bank",
+        "offers": [
+          {
+            "loanstart": 20000,
+            "loanEnd":100000,
+            "intreset": 2.1,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10567.01"
+          },
+          {
+            "loanstart": 20000,
+            "loanEnd":160000,
+            "intreset": 2.2,
+            "loanterm" : 1,
+            "loantermend" : 2.5,
+            "salarystart": 10500,
+            "salaryend":21000,
+            "monthlyInstalment": "10567.01"
+          },
+          {
+            "loanstart": 200000,
+            "loanEnd":600000,
+            "intreset": 3.1,
+            "loanterm" : 0,
+            "loantermend" : 3,
+            "salarystart": 15000,
+            "salaryend":25000,
+            "monthlyInstalment": "10567.01"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "HDFC Bank",
+        
+        "offers": [
+          {
+            "loanstart": 60000,
+            "loanEnd":100000,
+            "intreset": 1.8,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 9500,
+            "salaryend":15000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 200000,
+            "loanEnd":400000,
+            "intreset": 2.2,
+            "loanterm" : 1,
+            "loantermend" : 2.5,
+            "salarystart": 10500,
+            "salaryend":21000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 20000,
+            "loanEnd":100000,
+            "intreset": 2.1,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 1900000,
+            "loanEnd":2000000,
+            "intreset": 2.8,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10867.01"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "YES Bank",
+        
+        "offers": [
+          {
+            "loanstart": 60000,
+            "loanEnd":100000,
+            "intreset": 1.8,
+            "loanterm" : 0,
+            "loantermend" : 2,
+            "salarystart": 9500,
+            "salaryend":15000,
+            "monthlyInstalment": "11867.01"
+          },
+          {
+            "loanstart": 200000,
+            "loanEnd":400000,
+            "intreset": 2.2,
+            "loanterm" : 1,
+            "loantermend" : 2.5,
+            "salarystart": 10500,
+            "salaryend":21000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 20000,
+            "loanEnd":100000,
+            "intreset": 2.1,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 1900000,
+            "loanEnd":2000000,
+            "intreset": 2.8,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10867.01"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "IDFC Bank",
+        
+        "offers": [
+          {
+            "loanstart": 60000,
+            "loanEnd":100000,
+            "intreset": 1.8,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 9500,
+            "salaryend":15000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 200000,
+            "loanEnd":400000,
+            "intreset": 2.2,
+            "loanterm" : 1,
+            "loantermend" : 2.5,
+            "salarystart": 10500,
+            "salaryend":21000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 20000,
+            "loanEnd":100000,
+            "intreset": 2.1,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10867.01"
+          },
+          {
+            "loanstart": 1900000,
+            "loanEnd":2000000,
+            "intreset": 2.8,
+            "loanterm" : 1,
+            "loantermend" : 2,
+            "salarystart": 7500,
+            "salaryend":18000,
+            "monthlyInstalment": "10867.01"
+          }
+        ]
+      }
+      
+    ]
+  
+}

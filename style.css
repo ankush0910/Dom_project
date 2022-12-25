@@ -1,0 +1,35 @@
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+.tab {
+  display: none;
+}
+input.invalid {
+  background-color: #cc0011;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color :#3B4183;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 2;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color:  #0015ff;
+}
+ 
