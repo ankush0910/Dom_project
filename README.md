@@ -1,4 +1,5 @@
 ﻿# Dom_project
+ Application Run 
  Start With Live Server 
 # Dom_project 
 1.Loan Calculator In  Core Javascript With DOM. Loan Calculate ON Salary and  Loan term.  
