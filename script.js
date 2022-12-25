@@ -181,29 +181,45 @@ function fetchbanksList(){
     console.log(arraydata,"aa");
     let new_data = arraydata.sort((a, b) => a.intreset - b.intreset);
     output = "";
-    for (let item of new_data){
-      output+=`
-      <br>
-    <div class="card mb-3 " style="max-width: 540px;">
-      <div class="row g-0">
-          <div class="col-md-4">
-            <img src="index.png" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase">${item.bank_name}</h5>
-                <h5 class="card-title">${item.intreset}%</h5>
-                <p class="card-text text-muted">Anunal Profit Margin</p>
-                <h5 class="card-title">SAR ${item.monthlyInstalment }</h5>
-                <p class="card-text"> Monthly Instalment</p>
-                <h5 class="card-title">SAR ${loantermdata}</h5>
-                <p class="card-text"> Net Fancing Amount</p>
-               
-              </div>
+if(new_data.length > 0 ){
+
+  for (let item of new_data){
+    output+=`
+    <br>
+  <div class="card mb-3 " style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+          <img src="index.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title text-uppercase">${item.bank_name}</h5>
+              <h5 class="card-title">${item.intreset}%</h5>
+              <p class="card-text text-muted">Anunal Profit Margin</p>
+              <h5 class="card-title">SAR ${item.monthlyInstalment }</h5>
+              <p class="card-text"> Monthly Instalment</p>
+              <h5 class="card-title">SAR ${loantermdata}</h5>
+              <p class="card-text"> Net Fancing Amount</p>
+             
+            </div>
+        </div>
+    </div>
+  </div>
+                                              `
+}
+}else{
+  output+=`<div class="card mb-3 " style="max-width: 540px;">
+  <div class="row g-0">
+      <div class="col-md-4">
+        <img src="2953962.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+          <div class="card-body">
+           <h4 class="text-center mt-2">YOU NOT ELIGIBLE</h4>
           </div>
       </div>
-    </div
-                                                `
+  </div>
+</div`
 }
     // console.log("fetch_banks",fetch_banks);
     document.querySelector(".products").innerHTML = output;
